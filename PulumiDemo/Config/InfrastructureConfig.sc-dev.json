@@ -1,0 +1,29 @@
+{
+  "Location": "WestUS2",
+  "DeploymentSuffix": "15",
+
+  "BotVmCount": 1,
+  "ServiceVmCount": 0,
+  "AdminPassword": "P@ssword123!",
+  "AdminUsername": "BobJones",
+  "UseBotImage": true,
+
+
+  "SqlAdminGroupId": "6793db59-0ffc-4409-ada6-e19fec3e454e",
+  "SqlAdminGroupName": "DevCloud VM Users",
+  "SqlPassword": "P@ssword123!",
+  "SqlUsername": "DBAdmin",
+  "DbRetentionDays": "30",
+
+  "PortalLocation": "wwwroot",
+
+  "VmBotImageName": "VMBotImage",
+  "VmImageGallery": "VMImages",
+  "VmImageResourceGroup": "SWVmImages",
+
+  "VNetAddressSpace": "10.0.0.0/14",
+  "BastionAddressSpace": "10.0.2.0/23",
+  "FirewallSubnetAddressSpace": "10.0.1.0/26",
+  "Subnet1AddressSpace": "10.1.0.0/22",
+  "V2SubnetAddressSpace": "10.2.0.0/21"
+}

@@ -1,0 +1,3 @@
+name: swskeletondemo
+runtime: dotnet
+description: Demo of basic skeleton of a SW deployment

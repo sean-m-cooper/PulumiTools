@@ -1,0 +1,17 @@
+﻿{
+	"Location" : "WestUS2",
+	"NumberOfVirtualMacines" : 1,
+	"SaSuffix" : "12",
+	"PortalLocation" : "wwwroot",
+	"AdminUsername" : "BobJones",
+	"AdminPassword" : "P@ssword123!",
+	"SqlUsername" : "DBAdmin",
+	"SqlPassword" : "P@ssword123!",
+	"SqlAdminGroupName" : "6793db59-0ffc-4409-ada6-e19fec3e454e",
+	"DbRetentionDays" : "30",
+	"VNetAddressSpace" : "10.0.0.0/14",
+	"FirewallSubnetAddressSpace" : "10.0.1.0/26",
+	"BastionAddressSpace" : "10.0.2.0/23",
+	"Subnet1AddressSpace" : "10.1.0.0/22",
+	"Subnet2AddressSpace" : "10.2.0.0/21",
+}

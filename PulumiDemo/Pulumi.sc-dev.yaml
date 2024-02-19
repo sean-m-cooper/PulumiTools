@@ -1,0 +1,4 @@
+config:
+  swskeletondemo:clientName: "sc"
+  swskeletondemo:env: "dev"
+
