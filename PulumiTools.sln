@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PulumiTools", "PulumiTools\PulumiTools.csproj", "{CF9FDD09-0FD6-4E6E-ACF2-4975EEDF3DF5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PulumiDemo", "PulumiDemo\PulumiDemo.csproj", "{405892E5-8487-4AC6-BC96-E8D0F3C7DD39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CF9FDD09-0FD6-4E6E-ACF2-4975EEDF3DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF9FDD09-0FD6-4E6E-ACF2-4975EEDF3DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF9FDD09-0FD6-4E6E-ACF2-4975EEDF3DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405892E5-8487-4AC6-BC96-E8D0F3C7DD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405892E5-8487-4AC6-BC96-E8D0F3C7DD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405892E5-8487-4AC6-BC96-E8D0F3C7DD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405892E5-8487-4AC6-BC96-E8D0F3C7DD39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
