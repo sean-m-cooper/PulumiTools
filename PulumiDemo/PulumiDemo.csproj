@@ -12,10 +12,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Routing.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.PowerShell.Native" Version="7.2.0" />
     <PackageReference Include="Microsoft.PowerShell.SDK" Version="7.2.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Pulumi.Azure" Version="4.32.0" />
     <PackageReference Include="Pulumi.AzureNative" Version="1.51.0" />
-    <PackageReference Include="Silverwork.Core.JsonUtils" Version="1.4.0.1" />
     <PackageReference Include="System.Management" Version="6.0.0" />
   </ItemGroup>
 

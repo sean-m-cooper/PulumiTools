@@ -1,8 +1,7 @@
 ﻿using Newtonsoft.Json;
-using Silverwork.Core.JsonUtils;
 namespace Silverwork.PulumiOps
 {
-    public class InfrastructureConfig : ConfigBase<InfrastructureConfig>
+    public class InfrastructureConfig
     {
         [JsonRequired]
         public string AdminPassword { get; set; }

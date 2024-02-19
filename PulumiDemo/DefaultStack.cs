@@ -13,6 +13,8 @@ using PulumiTools.AzureResources.SqlServer;
 using PulumiTools.AzureResources.Storage;
 using PulumiTools.AzureResources.WebApps;
 using System.Collections.Generic;
+using System.IO;
+
 public class DefaultStack : Stack
 {
     [Output]
@@ -40,10 +42,11 @@ public class DefaultStack : Stack
         string deploymentName = $"{clientName}{environment}";
         DeploymentName = Output.Create(deploymentName);
 
-        string configPath = $"Config/{typeof(InfrastructureConfig).Name}.{clientName}-{environment}.json";
+        string configPath = $"Config/InfrastructureConfig.{clientName}-{environment}.json";
         ConfigPath = Output.Create(configPath);
 
-        config = InfrastructureConfig.DeserializeJsonFile(configPath);
+        string configFile = File.ReadAllText(configPath);
+        config = Newtonsoft.Json.JsonConvert.DeserializeObject<InfrastructureConfig>(configFile);
 
         string mountDriveScriptName = "MountDrive.ps1";
         string startupScriptName = "Startup.ps1";
