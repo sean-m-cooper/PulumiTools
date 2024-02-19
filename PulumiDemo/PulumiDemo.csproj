@@ -23,4 +23,8 @@
     <ProjectReference Include="..\PulumiTools\PulumiTools.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Assets\" />
+  </ItemGroup>
+
 </Project>
